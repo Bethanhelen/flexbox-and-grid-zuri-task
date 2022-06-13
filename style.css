@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.box{
+        width: 269px;
+        padding: 15px;
+        max-height: 430px;
+}
+
+.card1{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content{
+    padding: 30px 10px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+button{
+    margin: 60px 0;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    background-color:hsl(0, 0%, 95%); 
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: hsla(0, 0%, 100%, 0.75);
+}
